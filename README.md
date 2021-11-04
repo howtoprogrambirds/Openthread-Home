@@ -1,2 +1,5 @@
 # Openthread-Home
-This is an example what a openthread device could be in iot home server
+This code is an example of an openthread device that automates a minimal house.
+- LEDs are lights
+- Servos are doors
+- etc.
