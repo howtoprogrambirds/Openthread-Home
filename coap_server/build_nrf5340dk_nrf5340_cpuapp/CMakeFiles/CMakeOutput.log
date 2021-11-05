@@ -1,0 +1,117 @@
+The target system is: Generic - 2.6.99 - arm
+The host system is: Linux - 5.11.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/3.21.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/3.21.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_67bac && [1/2] Building C object CMakeFiles/cmTC_67bac.dir/CheckIncludeFile.c.obj
+[2/2] Linking C static library libcmTC_67bac.a
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a66ee && [1/2] Building C object CMakeFiles/cmTC_a66ee.dir/CheckIncludeFile.c.obj
+[2/2] Linking C static library libcmTC_a66ee.a
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5e0c6 && [1/2] Building C object CMakeFiles/cmTC_5e0c6.dir/CheckIncludeFile.c.obj
+[2/2] Linking C static library libcmTC_5e0c6.a
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5b5cc && [1/2] Building C object CMakeFiles/cmTC_5b5cc.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.obj
+[2/2] Linking C static library libcmTC_5b5cc.a
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9e34a && [1/2] Building C object CMakeFiles/cmTC_9e34a.dir/TestEndianess.c.obj
+[2/2] Linking C static library libcmTC_9e34a.a
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ade9c && [1/2] Building C object CMakeFiles/cmTC_ade9c.dir/HAVE_STDATOMIC_H.c.obj
+[2/2] Linking C executable cmTC_ade9c
+arm-none-eabi-gcc: warning: CMakeFiles/cmTC_ade9c.dir/HAVE_STDATOMIC_H.c.obj: linker input file unused because linking not done
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_946af && [1/2] Building C object CMakeFiles/cmTC_946af.dir/HAVE_FCNTL_H.c.obj
+[2/2] Linking C executable cmTC_946af
+arm-none-eabi-gcc: warning: CMakeFiles/cmTC_946af.dir/HAVE_FCNTL_H.c.obj: linker input file unused because linking not done
+
+
+

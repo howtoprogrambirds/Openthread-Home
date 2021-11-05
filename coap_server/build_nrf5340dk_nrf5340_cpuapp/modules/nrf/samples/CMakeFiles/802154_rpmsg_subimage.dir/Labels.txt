@@ -1,0 +1,13 @@
+# Target labels
+ 802154_rpmsg_subimage
+# Source files and their labels
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/CMakeFiles/802154_rpmsg_subimage
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/CMakeFiles/802154_rpmsg_subimage.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/CMakeFiles/802154_rpmsg_subimage-complete.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-build.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-configure.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-download.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-install.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-mkdir.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-patch.rule
+/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/modules/nrf/samples/802154_rpmsg_subimage-prefix/src/802154_rpmsg_subimage-stamp/802154_rpmsg_subimage-update.rule

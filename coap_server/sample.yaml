@@ -5,9 +5,12 @@ tests:
   samples.openthread.coap_server:
     build_only: true
     platform_allow: nrf5340dk_nrf5340_cpuapp nrf52840dk_nrf52840 nrf52833dk_nrf52833 nrf21540dk_nrf52840
-    tags: ci_build
-    filter: dt_enabled_alias_with_parent_compat("led0", "gpio-leds")
-    depends_on: gpio
+    tags: ci_build drivers pwm
+    filter: dt_enabled_alias_with_parent_compat("led0", "gpio-leds") and
+            dt_alias_exists("red-pwm-led") and
+            dt_alias_exists("green-pwm-led") and
+            dt_alias_exists("blue-pwm-led")
+    depends_on: gpio pwm
     harness: led
     integration_platforms:
       - nrf5340dk_nrf5340_cpuapp

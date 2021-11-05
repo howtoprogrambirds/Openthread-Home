@@ -1,0 +1,30 @@
+modules/hal_nordic/nrfx/CMakeFiles/modules__hal_nordic__nrfx.dir/home/dylan/ncs/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.c.obj: \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.c \
+ /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/zephyr/include/generated/autoconf.h \
+ /home/dylan/ncs/zephyr/include/toolchain/zephyr_stdint.h \
+ /home/dylan/ncs/zephyr/lib/libc/newlib/include/stdint.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib-nano/newlib.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint-gcc.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf5340_application.h \
+ /home/dylan/ncs/modules/hal/cmsis/CMSIS/Core/Include/core_cm33.h \
+ /home/dylan/ncs/modules/hal/cmsis/CMSIS/Core/Include/cmsis_version.h \
+ /home/dylan/ncs/modules/hal/cmsis/CMSIS/Core/Include/cmsis_compiler.h \
+ /home/dylan/ncs/modules/hal/cmsis/CMSIS/Core/Include/cmsis_gcc.h \
+ /home/dylan/ncs/modules/hal/cmsis/CMSIS/Core/Include/mpu_armv8.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf5340_application_bitfields.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf5340_application_name_change.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/compiler_abstraction.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf_erratas.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf51_erratas.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf52_erratas.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/nrf91_erratas.h \
+ /home/dylan/ncs/modules/hal/nordic/nrfx/mdk/system_nrf53_approtect.h

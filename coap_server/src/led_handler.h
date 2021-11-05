@@ -16,12 +16,20 @@
 //#define DK_LED3           2
 //#define DK_LED4           3
 
+#define RGBLEDS 						3
+#define RGBLEDS_AMOUNT      1
+
+
+enum { RED, GREEN, BLUE };
+
 /** @brief Initialize the gpio's to control the LEDs.
  *
  *  @retval 0           If the operation was successful.
  *                      Otherwise, a (negative) error code is returned.
  */
 int gpio_leds_init(void);
+
+int cst_rgb_leds_init(void);
 
 /** @brief Set a single LED value.
  *
@@ -45,7 +53,14 @@ int cst_gpio_set_led(uint8_t led_idx, uint32_t val);
  *                      Otherwise, a (negative) error code is returned.
  */
 int cst_gpio_set_led_on(uint8_t led_idx);
-// void cst_gpio_set_led_on(void);
+
+int pwm_set(const struct device *pwm_dev, uint32_t pwm_pin, uint32_t pulse_width, uint8_t flags);
+
+int rgb_leds_set_red(uint32_t pulse_red);
+
+int rgb_leds_set_green(uint32_t pulse_green);
+
+int rgb_leds_set_blue(uint32_t pulse_blue);
 
 /** @brief Turn a single LED off.
  *
@@ -55,6 +70,5 @@ int cst_gpio_set_led_on(uint8_t led_idx);
  *                      Otherwise, a (negative) error code is returned.
  */
 int cst_gpio_set_led_off(uint8_t led_idx);
-// void cst_gpio_set_led_off(void);
 
 #endif

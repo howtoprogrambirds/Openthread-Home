@@ -9,8 +9,36 @@
 			label = "Green LED 5";
 		};
 	};
+	pwmleds {
+		compatible = "pwm-leds";
+		pwm_led0_green: pwm_led_0 {
+			pwms = <&pwm0 4>;
+			label = "Green PWM LED 0";
+		};
+		pwm_led1_blue: pwm_led_1 {
+			pwms = <&pwm0 5>;
+			label = "Blue PWM LED 1";
+		};
+		pwm_led2_red: pwm_led_2 {
+			pwms = <&pwm0 6>;
+			label = "Red PWM LED 2";
+		};
+	};
 	aliases {
 		led4 = &led4;
 		led5 = &led5;
+		green-pwm-led-custom = &pwm_led0_green;
+		blue-pwm-led-custom  = &pwm_led1_blue;
+		red-pwm-led-custom  = &pwm_led2_red;
 	};
+};
+
+&pwm0 {
+	status = "okay";
+	ch0-pin = <4>;
+	ch0-inverted;
+	ch1-pin = <5>;
+	ch1-inverted;
+	ch2-pin = <6>;
+	ch2-inverted;
 };

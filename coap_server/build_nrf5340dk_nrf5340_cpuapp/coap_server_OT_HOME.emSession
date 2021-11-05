@@ -1,0 +1,50 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="107" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../src/led_handler.c" useHWbreakpoint="false"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="coap_server_OT_HOME"/>
+  <ProjectSessionItem path="coap_server_OT_HOME;zephyr/merged.hex"/>
+  <ProjectSessionItem path="coap_server_OT_HOME;build"/>
+  <ProjectSessionItem path="coap_server_OT_HOME;build;app/libapp.a"/>
+  <ProjectSessionItem path="coap_server_OT_HOME;build;app/libapp.a;C_COMPILER__app_"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="116" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/led_handler.c" selected="0" top="99" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="2198" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="zephyr/include/generated/devicetree_unfixed.h" selected="0" top="2182" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="262" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/coap_server.c" selected="1" top="240" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="zephyr/merged.hex" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

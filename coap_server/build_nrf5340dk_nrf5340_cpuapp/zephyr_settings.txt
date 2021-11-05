@@ -1,0 +1,3 @@
+"BOARD_ROOT":"/home/dylan/ncs/nrf"
+"DTS_ROOT":"/home/dylan/ncs/nrf"
+"MODULE_EXT_ROOT":"/home/dylan/ncs/nrf"

@@ -1,0 +1,52 @@
+The target system is: Generic - 2.6.99 - arm
+The host system is: Linux - 5.11.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/802154_rpmsg/CMakeFiles/3.21.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/802154_rpmsg/CMakeFiles/3.21.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/802154_rpmsg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a2d87 && [1/2] Building C object CMakeFiles/cmTC_a2d87.dir/HAVE_STDATOMIC_H.c.obj
+[2/2] Linking C executable cmTC_a2d87
+arm-none-eabi-gcc: warning: CMakeFiles/cmTC_a2d87.dir/HAVE_STDATOMIC_H.c.obj: linker input file unused because linking not done
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/802154_rpmsg/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_84c7c && [1/2] Building C object CMakeFiles/cmTC_84c7c.dir/HAVE_FCNTL_H.c.obj
+[2/2] Linking C executable cmTC_84c7c
+arm-none-eabi-gcc: warning: CMakeFiles/cmTC_84c7c.dir/HAVE_FCNTL_H.c.obj: linker input file unused because linking not done
+
+
+

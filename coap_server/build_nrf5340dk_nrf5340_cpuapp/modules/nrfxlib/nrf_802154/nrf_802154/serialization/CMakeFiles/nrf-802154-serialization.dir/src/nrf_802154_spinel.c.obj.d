@@ -1,0 +1,32 @@
+modules/nrfxlib/nrf_802154/nrf_802154/serialization/CMakeFiles/nrf-802154-serialization.dir/src/nrf_802154_spinel.c.obj: \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/nrf_802154_spinel.c \
+ /home/dylan/ncs/nrf/samples/openthread/coap_server_OT_HOME/build_nrf5340dk_nrf5340_cpuapp/zephyr/include/generated/autoconf.h \
+ /home/dylan/ncs/zephyr/include/toolchain/zephyr_stdint.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_spinel.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/serialization/nrf_802154_serialization_error.h \
+ /home/dylan/ncs/zephyr/lib/libc/newlib/include/stdint.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/newlib-nano/newlib.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint-gcc.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_buffer_mgr_dst.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_kvmap.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_buffer_allocator.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_buffer_mgr_src.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/../spinel_base/spinel.h \
+ /opt/gnu-mcu-eclipse/arm-none-eabi-gcc/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_spinel_dec.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/platform/nrf_802154_spinel_backend.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/platform/nrf_802154_spinel_backend_callouts.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/platform/nrf_802154_spinel_log.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/platform/nrf_802154_spinel_response_notifier.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/../spinel_base/spinel.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_serialization_error_helper.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_buffer_mgr_dst.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/src/include/nrf_802154_buffer_mgr_src.h \
+ /home/dylan/ncs/nrfxlib/nrf_802154/serialization/include/serialization/nrf_802154_serialization_config.h
