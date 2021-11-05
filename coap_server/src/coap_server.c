@@ -17,7 +17,8 @@ LOG_MODULE_REGISTER(coap_server, CONFIG_COAP_SERVER_LOG_LEVEL);
 
 #define OT_CONNECTION_LED DK_LED1
 #define PROVISIONING_LED DK_LED3
-#define LIGHT_LED CST_LED1
+#define LIGHT_LED_1 CST_LED1
+#define LIGHT_LED_2 CST_LED2
 
 static struct k_work provisioning_work;
 
@@ -28,20 +29,32 @@ static void on_light_request(uint8_t command)
 {
 	static uint8_t val;
 
+
 	switch (command) {
-	case THREAD_COAP_UTILS_LIGHT_CMD_ON:
-		cst_gpio_set_led_on(LIGHT_LED);
+	case THREAD_COAP_UTILS_LIGHT_1_CMD_ON:
+		cst_gpio_set_led_on(LIGHT_LED_1);
 		val = 1;
 		break;
 
-	case THREAD_COAP_UTILS_LIGHT_CMD_OFF:
-		cst_gpio_set_led_off(LIGHT_LED);
+	case THREAD_COAP_UTILS_LIGHT_1_CMD_OFF:
+		cst_gpio_set_led_off(LIGHT_LED_1);
+		val = 0;
+		break;
+
+	case THREAD_COAP_UTILS_LIGHT_2_CMD_ON:
+		cst_gpio_set_led_on(LIGHT_LED_2);
+		val = 1;
+		break;
+
+	case THREAD_COAP_UTILS_LIGHT_2_CMD_OFF:
+		cst_gpio_set_led_off(LIGHT_LED_2);
 		val = 0;
 		break;
 
 	case THREAD_COAP_UTILS_LIGHT_CMD_TOGGLE:
 		val = !val;
-		cst_gpio_set_led(LIGHT_LED, val);
+		cst_gpio_set_led(LIGHT_LED_1, val);
+		cst_gpio_set_led(LIGHT_LED_2, val);
 		break;
 
 	default:
@@ -149,7 +162,7 @@ void main(void)
 
 	ret = dk_leds_init();
 	ret = gpio_leds_init();
-  cst_gpio_set_led_on(LIGHT_LED);
+  cst_gpio_set_led_on(LIGHT_LED_2);
 	if (ret) {
 		LOG_ERR("Could not initialize leds, err code: %d", ret);
 		goto end;

@@ -19,6 +19,11 @@ static const struct gpio_pin led_pins_cst[] = {
     DT_GPIO_PIN(DT_ALIAS(led4), gpios),
     DT_GPIO_FLAGS(DT_ALIAS(led4), gpios)},
 #endif
+#if DT_NODE_HAS_STATUS(DT_ALIAS(led5), okay)
+   {DT_GPIO_LABEL(DT_ALIAS(led5), gpios),
+    DT_GPIO_PIN(DT_ALIAS(led5), gpios),
+    DT_GPIO_FLAGS(DT_ALIAS(led5), gpios)},
+#endif
 };
 
 static const struct device *led_devs_cst[ARRAY_SIZE(led_pins_cst)];

@@ -12,7 +12,7 @@
 #include <drivers/gpio.h>
 
 #define CST_LED1           0
-//#define DK_LED2           1
+#define CST_LED2           1
 //#define DK_LED3           2
 //#define DK_LED4           3
 

@@ -4,8 +4,13 @@
 			gpios = <&gpio1 5 GPIO_ACTIVE_LOW>; /* LED3 was using gpio0 31, change to 26 so it can be used by led4 */
 			label = "Green LED 4";
 		};
+		led5: led_5 {
+			gpios = <&gpio1 6 GPIO_ACTIVE_LOW>; /* LED3 was using gpio0 31, change to 26 so it can be used by led4 */
+			label = "Green LED 5";
+		};
 	};
 	aliases {
 		led4 = &led4;
+		led5 = &led5;
 	};
 };
